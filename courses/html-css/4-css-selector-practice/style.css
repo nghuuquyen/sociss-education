@@ -1,0 +1,153 @@
+/**
+* Base
+* ----------------------------------
+* Define font color, font family, ...
+*/
+
+header, footer {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.post {
+  font-family: "Roboto", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/**
+* Layout
+* ----------------------------------
+* Define size and color of main sections in website
+*/
+
+body {
+  background-color: #EEE;
+  margin : 0;
+}
+
+.container {
+  display: block;
+  clear: both;
+  padding: 15px;
+}
+
+.page-wrap {
+  background-color: #FFF;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/**
+* Module: header
+* ----------------------------------
+*/
+.header {
+  /* 300px = 250px of banner + 50px of navbar */
+  min-height: 300px;
+}
+
+.header-navbar {
+  text-align: right;
+  height: 50px;
+  background: #029dd2;
+  color : white;
+  font-size: 15px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.header-navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-banner {
+  min-height: 250px;
+  background: url('./images/header-banner.png') no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.header-banner > h1 {
+  text-align: center;
+  padding-top: 100px;
+  margin: 0;
+  color: #FFF;
+  font-size: 3em;
+}
+
+/**
+* Module: post
+* ----------------------------------
+*/
+.post-title > h1 {
+  font-size: 2.5em;
+}
+
+.post-content h1 {
+  border-bottom: 2px solid #BBB;
+}
+
+.post-content img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.post-content figure {
+  text-align: center;
+}
+
+.post-author {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.post-author img {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #BBB;
+  border-radius: 50%;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 0 auto;
+  display: block;
+}
+
+
+/**
+* Module: footer
+* ----------------------------------
+*/
+
+.footer {
+  background-color: #C3C3C3;
+  position: relative;
+  min-height: 200px;
+}
+
+.footer > h1 {
+  color: #4B4B4B;
+  text-align: center;
+  padding: 50px;
+  margin: 0;
+}
+
+.footer .footer-bottom {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 35px;
+  padding: 10px;
+  background-color: #AAA;
+  text-align: center;
+  box-sizing: border-box;
+}
