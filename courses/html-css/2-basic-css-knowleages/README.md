@@ -65,3 +65,14 @@ Khi có CSS vào
 ```
 
 Trong bài giới thiệu lần này các bạn chỉ cần hiểu CSS là gì, khi sử dụng nó thì có hiệu quả ra sao mà thôi. Trong bài học tới mình sẽ trình bày cụ thể hơn về những cái cần biết khi làm việc với CSS.
+
+
+# Tác giả
+
+**Name:** Nguyen Huu Quyen ( Nguyễn Hữu Quyền )
+
+**Email:** nghuuquyen@gmail.com
+
+**Website:** [Sociss Class - Online Education Center](https://sociss.edu.vn/)
+
+**Profile Page:** [Nguyen Huu Quyen - Profile Page ](https://sociss.edu.vn/users/nghuuquyen)

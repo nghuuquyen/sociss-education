@@ -112,3 +112,15 @@ Mình sẽ liệt kê danh sách các thẻ cần nắm bao gồm:
 
 
 Để bài viết ngắn gọn, mình không đi sâu vào các code từng thành phần, các bạn có thể vào trang w3school.com để xem cách sử dụng. Hoặc try cập vào repository trên github của mình theo link sau để xem đầy đủ mã nguồn của hình trên.
+
+
+
+# Tác giả
+
+**Name:** Nguyen Huu Quyen ( Nguyễn Hữu Quyền )
+
+**Email:** nghuuquyen@gmail.com
+
+**Website:** [Sociss Class - Online Education Center](https://sociss.edu.vn/)
+
+**Profile Page:** [Nguyen Huu Quyen - Profile Page ](https://sociss.edu.vn/users/nghuuquyen)

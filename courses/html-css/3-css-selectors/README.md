@@ -6,10 +6,10 @@ Và tư tưởng trên cũng chính là các tiếp cận để viết mã CSS. 
 
 
 ```css
-danh sách vùng chọn {
-  thuộc tính : giá trị;
+list selectors {
+  attribute : value;
 
-  [... nhiều cập thuộc tính vào giá trị ...]
+  [... more ...]
 }
 ```
 
@@ -317,7 +317,7 @@ Qua bài học mình đã giới thiệu với các bạn tất cả kỹ thuậ
 Sau bài này sẽ có một bài thực hành số 1 về thao tác với vùng chọn (Selector) để các bạn có thể áp dụng vào thực hành để nâng cao kỹ năng.
 
 
-# 6. Câu hỏi cần suy nghẫm
+# 6. Câu hỏi cần suy ngẫm
 
 Hãy suy nghĩ và nêu lên nhận xét của bạn với các luận điểm dưới đây là đúng hay sai và vì sao ? . Hãy trả lời và cũng thảo luận ở phần comment nhé.
 
@@ -325,3 +325,14 @@ Hãy suy nghĩ và nêu lên nhận xét của bạn với các luận điểm d
 1) Tôi có thể chọn mọi thứ với bộ chọn class, nên chỉ cần biết mỗi bộ chọn này là được rồi không cần biết các bộ chọn khác.
 
 2) Làm thế nào để biết bộ chọn nào là phù hợp nhất, vì tôi vẫn có thể chọn một phần tử bằng nhiều cách khác nhau.
+
+
+# Tác giả
+
+**Name:** Nguyen Huu Quyen ( Nguyễn Hữu Quyền )
+
+**Email:** nghuuquyen@gmail.com
+
+**Website:** [Sociss Class - Online Education Center](https://sociss.edu.vn/)
+
+**Profile Page:** [Nguyen Huu Quyen - Profile Page ](https://sociss.edu.vn/users/nghuuquyen)
