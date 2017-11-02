@@ -1,0 +1,13 @@
+<h1>Home Page</h1>
+
+<b>Authors</b>
+</hr>
+<!-- List author -->
+<ul>
+  {{#each authors}}
+  <li>
+    <a href="/author/{{this.username}}">{{this.fullName}}</a>
+  </li>
+  {{/each}}
+</ul>
+<!-- ./ List author -->

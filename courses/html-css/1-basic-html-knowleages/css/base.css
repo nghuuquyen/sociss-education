@@ -1,0 +1,17 @@
+h2 {
+  display: block;
+  border-bottom: 2px solid #bbbbbb;
+  line-height: 45px;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  color: #FFFFFF;
+}
+
+html {
+  color: #FFF;
+}
+
+a {
+  color: #2196f3;
+}

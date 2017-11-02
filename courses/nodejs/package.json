@@ -1,0 +1,31 @@
+{
+  "name": "sociss-class-nodejs",
+  "version": "1.0.0",
+  "description": "Project for teaching and learing NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nghuuquyen/sociss-class-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "sociss",
+    "class",
+    "sociss",
+    "nodejs"
+  ],
+  "author": "Nguyen Huu Quyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nghuuquyen/sociss-class-nodejs/issues"
+  },
+  "homepage": "https://github.com/nghuuquyen/sociss-class-nodejs#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-hbs": "^1.0.4",
+    "morgan": "^1.9.0"
+  }
+}

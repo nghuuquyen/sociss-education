@@ -1,0 +1,4 @@
+.sociss-form-container {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+}

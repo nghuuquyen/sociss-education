@@ -1,0 +1,1 @@
+var examples = require('./examples');
