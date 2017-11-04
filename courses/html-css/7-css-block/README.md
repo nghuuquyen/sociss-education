@@ -26,7 +26,7 @@ Hay nói đơn giản, block đáp ứng đầy đủ kỹ thuật box model.
 
 Phần tử nội dòng (Inline Elements) là thuật ngữ chỉ chung các thẻ HTML khi mà khai báo vào nội dung thì nó vẫn sẽ nằm chung một dòng với các văn bản khác. Thường được sử dụng cho phần tử dạng text.
 
-Một số thẻ inline rất hay dùng đó là <b>, <strong>, <i>, <u>. Và đặc biệt là <span> nếu bạn cần gộp nhóm các phần tử nào đó mà không ảnh hưởng đến các văn bản chung một hàng, thẻ <span> này có ý nghĩa và cách sử dụng giống như <div> nhưng nó được dùng trong inline.
+Một số thẻ inline rất hay dùng đó là `b, strong, i, u`. Và đặc biệt là `span` nếu bạn cần gộp nhóm các phần tử nào đó mà không ảnh hưởng đến các văn bản chung một hàng, thẻ `span` này có ý nghĩa và cách sử dụng giống như `div` nhưng nó được dùng trong inline.
 
 **Đặc điểm**
 
