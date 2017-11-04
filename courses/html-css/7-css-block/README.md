@@ -10,13 +10,15 @@ Block, inline và inline-block bản chất là khái niệm chỉ định cách
 
 Phần tử khối (Block Elements) là thuật ngữ chỉ chung các thẻ HTML có chức năng tạo một một khối.
 
-một số thẻ block cơ bản như <div>, <p>, <ul>, <ol>, <h1>,…
+một số thẻ block cơ bản như div, p, ul, ol, h1 , ...
 
 **Đặc điểm**
 
 1) Có thể xác định thông số lề  margins và vùng đệm padding
 2) Có thể áp dụng được thuộc tính width and height.
 3) Không thể sử dụng thuộc tính vertical-align
+4) Chiều ngang (width) mặc định của block là 100% chiều ngang của phần tử cha chưa block.
+5) Chiều cao (height) mặc định của block là chiều cao của phần tử chứa trong block đó.
 
 Hay nói đơn giản, block đáp ứng đầy đủ kỹ thuật box model.
 
@@ -43,7 +45,7 @@ Hiểu một cách đơn giản nhất, các phần tử thuộc inline được
 
 Đây là dạng đặc biệt, nó thừa hưởng cả đặc điểm của block và inline. Tuy nhiên không có một phần tử HTML nào mặc định ở dạng này cả.
 
-**inline-block chỉ hơn block ở duy nhất một đặc điểm** đó là có thể `Sử dụng thuộc vertical-align như text trong CSS`.
+**inline-block chỉ hơn block ở duy nhất một đặc điểm** đó là có thể  Sử dụng thuộc vertical-align như text trong CSS.
 
 
 **Ví dụ**: Demo cả ba dạng, block, inline và inline-block.
@@ -128,4 +130,4 @@ body {
 
 Trong thiết kế website thì hầu hết các trình bày các phần tử ra màn hình đều rơi vào hai dạng này.
 
-![Demo wireframe](./images/block-inline-inline-block.png)
+![Demo wireframe](./images/wireframes.gif)
