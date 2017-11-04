@@ -1,0 +1,31 @@
+body {
+  background-color: #000;
+}
+
+.container {
+  width: 100%;
+  background-color: aqua;
+}
+
+.block {
+  display: block;
+  background-color: chocolate;
+  height: 50px;
+  margin: 5px;
+}
+
+.inline-block {
+  display: inline-block;
+  background-color: darkcyan;
+  height: 30px;
+  margin: 5px;
+}
+
+.inline {
+  background-color: darkorange;
+
+  /* This no effect for inline element */
+  height: 30px;
+  margin: 5px;
+  /*************************************/
+}
