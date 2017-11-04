@@ -6,7 +6,7 @@ Block, inline và inline-block bản chất là khái niệm chỉ định cách
 ![Demo cách hiển thị block, inline,inline-block](./images/block-inline-inline-block.png)
 
 
-## Block là gì?
+## 1. Block (phần tử khối) là gì?
 
 Phần tử khối (Block Elements) là thuật ngữ chỉ chung các thẻ HTML có chức năng tạo một một khối.
 
@@ -22,7 +22,7 @@ một số thẻ block cơ bản như div, p, ul, ol, h1 , ...
 
 Hay nói đơn giản, block đáp ứng đầy đủ kỹ thuật box model.
 
-## Inline là gì?
+## 2. Inline (phần tử nội tuyến) là gì?
 
 Phần tử nội dòng (Inline Elements) là thuật ngữ chỉ chung các thẻ HTML khi mà khai báo vào nội dung thì nó vẫn sẽ nằm chung một dòng với các văn bản khác. Thường được sử dụng cho phần tử dạng text.
 
@@ -41,7 +41,7 @@ Một số thẻ inline rất hay dùng đó là <b>, <strong>, <i>, <u>. Và đ
 Hiểu một cách đơn giản nhất, các phần tử thuộc inline được CSS xem như các ký tự hoặc cụm chữ, do đó nó luôn nối tiếp trên một dòng nếu đặt cạnh nhau.
 
 
-## Inline-block là gì ?
+## 3. Inline-block là gì ?
 
 Đây là dạng đặc biệt, nó thừa hưởng cả đặc điểm của block và inline. Tuy nhiên không có một phần tử HTML nào mặc định ở dạng này cả.
 
@@ -131,3 +131,26 @@ body {
 Trong thiết kế website thì hầu hết các trình bày các phần tử ra màn hình đều rơi vào hai dạng này.
 
 ![Demo wireframe](./images/wireframes.gif)
+
+
+## 4. Khi nào dùng inline-block ?
+
+Mình nêu một số ví dụ mà mình hay gặp trong thực tế ra nhé.
+
+1) Bạn muốn áp dụng kỹ thuật box model trực tiếp cho một đoạn text.
+
+Đây là trường hợp bạn muốn trực tiếp margin hoặc padding trên thẻ p hoặc span.
+
+**Lưu ý** : Để margin hoặc padding cho một đoạn text thì một cách an toàn khác là dùng một thẻ div bọc ngoài rồi thiết lập padding hoặc margin.
+
+```html
+<div class="post-content">
+  <p>Content ......</p>
+</div>
+```
+
+2) Bạn muốn thu gọn chiều ngang của môt khối block.
+
+Ví dụ bạn muốn chèn một icon theo sau thẻ h1 chẳng hạn. Lúc này bạn phải chuyển h1 về dạng inline-block và không định nghĩa width, kiểu inline-block sẽ tự đặt width khớp với nội dung bên trong.
+
+**Lưu ý** Các bạn có thể thiết lập width cho thẻ h1 khi và chỉ khi các bạn biết chính xác độ dài của nội dung, nếu không thì khi đặt cứng width có thể gây mất chữ.
