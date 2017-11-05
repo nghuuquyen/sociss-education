@@ -47,6 +47,9 @@ Lúc này bạn thử co giãn màn hình thì sẽ thấy thẻ div co giãn th
 
 **ví dụ 2** Thiết lập thẻ div.box có kích thước là một nửa của div.container
 
+![Demo width height](./width-height.png)
+
+
 Mã HTML
 
 ```html
