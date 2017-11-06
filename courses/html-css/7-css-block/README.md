@@ -8,7 +8,7 @@ Block, inline và inline-block bản chất là khái niệm chỉ định cách
 
 ## 1. Block (phần tử khối) là gì?
 
-Phần tử khối (Block Elements) là thuật ngữ chỉ chung các thẻ HTML có chức năng tạo một một khối.
+Phần tử khối (Block Elements) là thuật ngữ chỉ chung các thẻ HTML có chức năng tạo một một khối. Các khối này sẽ hiển thị theo từng dòng riêng biệt.
 
 một số thẻ block cơ bản như div, p, ul, ol, h1 , ...
 
@@ -137,7 +137,7 @@ Trong thiết kế website thì hầu hết các trình bày các phần tử ra
 
 Mình nêu một số ví dụ mà mình hay gặp trong thực tế ra nhé.
 
-1) Bạn muốn áp dụng kỹ thuật box model trực tiếp cho một đoạn text.
+**1) Bạn muốn áp dụng kỹ thuật box model trực tiếp cho một đoạn text.**
 
 Đây là trường hợp bạn muốn trực tiếp margin hoặc padding trên thẻ p hoặc span.
 
@@ -149,8 +149,48 @@ Mình nêu một số ví dụ mà mình hay gặp trong thực tế ra nhé.
 </div>
 ```
 
-2) Bạn muốn thu gọn chiều ngang của môt khối block.
+**2) Bạn muốn thu gọn chiều ngang của môt khối block.**
 
 Ví dụ bạn muốn chèn một icon theo sau thẻ h1 chẳng hạn. Lúc này bạn phải chuyển h1 về dạng inline-block và không định nghĩa width, kiểu inline-block sẽ tự đặt width khớp với nội dung bên trong.
 
 **Lưu ý** Các bạn có thể thiết lập width cho thẻ h1 khi và chỉ khi các bạn biết chính xác độ dài của nội dung, nếu không thì khi đặt cứng width có thể gây mất chữ.
+
+**3) Bạn muốn các phần tử block chuyển thành hiển thị trên một dòng.**
+
+Cái này ứng dụng khi các bạn muốn làm một danh sách dạng lưới (grid) để hiển thị ảnh chẳng hạn.
+
+![Demo inline block in one row]('./images/inline-block-demo.png')
+
+
+```html
+<div class="item">
+  <p>
+    Item 1
+  </p>
+</div>
+
+<div class="item">
+  <p>
+    Item 2
+  </p>
+</div>
+
+<div class="item">
+  <p>
+    Item 3
+  </p>
+</div>
+```
+
+Và CSS
+
+```css
+.item {
+  background-color: lightgray;
+  width: 100px;
+  height: 100px;
+  border: 5px solid #000;
+  display : inline-block;
+  margin: 10px;
+}
+```
