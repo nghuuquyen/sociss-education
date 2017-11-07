@@ -12,6 +12,9 @@ Phần tử khối (Block Elements) là thuật ngữ chỉ chung các thẻ HTM
 
 một số thẻ block cơ bản như div, p, ul, ol, h1 , ...
 
+**Ví dụ** bạn biết rằng ký tự là dạng inline, nên nó sẽ hiển thị trên một dòng, tuy nhiên nếu bạn muốn tách biệt ra thành từng đoạn văn bản khác nhau. Thì hay bọc các ký tự ấy trong thẻ `p`. Vì thẻ p dạng block nên khi hiển thị nó sẽ tách ra thành từng dòng riêng biệt.
+
+
 **Đặc điểm**
 
 1) Có thể xác định thông số lề  margins và vùng đệm padding
@@ -24,9 +27,11 @@ Hay nói đơn giản, block đáp ứng đầy đủ kỹ thuật box model.
 
 ## 2. Inline (phần tử nội tuyến) là gì?
 
-Phần tử nội dòng (Inline Elements) là thuật ngữ chỉ chung các thẻ HTML khi mà khai báo vào nội dung thì nó vẫn sẽ nằm chung một dòng với các văn bản khác. Thường được sử dụng cho phần tử dạng text.
+Phần tử nội dòng (Inline Elements) là thuật ngữ chỉ chung các thẻ HTML khi mà khai báo vào nội dung thì nó vẫn sẽ nằm chung một dòng với các văn bản khác mà không bị tách dòng. Thường được sử dụng cho phần tử dạng text.
 
-Một số thẻ inline rất hay dùng đó là `b, strong, i, u`. Và đặc biệt là `span` nếu bạn cần gộp nhóm các phần tử nào đó mà không ảnh hưởng đến các văn bản chung một hàng, thẻ `span` này có ý nghĩa và cách sử dụng giống như `div` nhưng nó được dùng trong inline.
+Bạn có thể hình dung, Ký tự là dạng inline. Nên các ký tự liền kề nhau vẫn ở chung một dòng, và chỉ ngắt dòng khi nó chạm vào phần lề mà thôi, hay gọi đó là hết không gian.
+
+Một số thẻ inline rất hay dùng đó là `b, strong, i, u`. Và đặc biệt là `span` nếu bạn cần gộp nhóm các phần tử nào đó mà không ảnh hưởng đến các văn bản chung một hàng.
 
 **Đặc điểm**
 
@@ -45,7 +50,10 @@ Hiểu một cách đơn giản nhất, các phần tử thuộc inline được
 
 Đây là dạng đặc biệt, nó thừa hưởng cả đặc điểm của block và inline. Tuy nhiên không có một phần tử HTML nào mặc định ở dạng này cả.
 
-**inline-block chỉ hơn block ở duy nhất một đặc điểm** đó là có thể  Sử dụng thuộc vertical-align như text trong CSS.
+**inline-block chỉ hơn block một đặc điểm** đó là có thể  Sử dụng thuộc vertical-align như text trong CSS.
+
+Nếu áp dụng `inline-block` cho phần tử `block` thì sẽ đưa phần tử đó về dạng có chứa đặc điểm của inline, tức là các phần tử kề sát nhau sẽ hiển thị trên một dòng nếu đủ không gian. Giống như chữ viết văn bản sẽ tự xuống dòng nếu chạm vào lề vậy.
+
 
 
 **Ví dụ**: Demo cả ba dạng, block, inline và inline-block.
