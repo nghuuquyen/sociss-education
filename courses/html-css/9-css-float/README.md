@@ -208,15 +208,20 @@ Kết quả cũng tương tự, vì nó ngăn thẻ p không cho trôi về phí
 
 Nó tương tự như bạn chèn thêm một thẻ div ở sau vậy. Về `Pseudo-elements` thì bạn có thể xem thêm ở cái bài học sau, phần này mình chỉ mang tính chất giới thiệu.
 
-Bạn chèn thêm đoạn code sau vào mã CSS
+Bạn chèn thêm đoạn code sau vào mã CSS, mục đích là để tạo ra một phần tử chứa dấu chấm (.) nhưng không hiển thị ra, trên đó thì thiết lập `clear:both`. Tại sao lại là dấu `.` thì đơn giản để nó có nội dung thì mới được trình duyệt cho phép, không thì nó sẽ không bao giờ xuất hiện.
 
 ```css
 .product-card-container .product-images::after {
-  clear:both;
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
 }
 ```
 
 Và lúc này bạn xóa `<div style="clear: both;" />` đi và mọi thứ vẫn ổn. Lúc này nếu bạn mở trình duyệt lên và inspect thì sẽ thấy nó chèn phần tử `::after` này vào sau khung chứa `div.product-images`.
+
 
 Tới đây thì bạn đã hiểu về hai thuật ngữ **float** và **clearfix** và cách áp dụng nó.
 
