@@ -302,3 +302,15 @@ Hiểu được hai quy định này của float sẽ giúp các bạn làm vi�
 Tới đây là bạn đã nắm vững `float` và `clearfix` đồng thời hiểu về vấn đề định nghĩa kích thước trong việc kỹ thuật float.
 
 Ở bài học tiếp theo chúng ta sẽ ứng dụng float để xây dựng giao diện dạng cột (column) hoặc dạng lưới (grid).
+
+
+
+# Tác giả
+
+**Name:** Nguyen Huu Quyen ( Nguyễn Hữu Quyền )
+
+**Email:** nghuuquyen@gmail.com
+
+**Website:** [Sociss Class - Online Education Center](https://sociss.edu.vn/)
+
+**Profile Page:** [Nguyen Huu Quyen - Profile Page ](https://sociss.edu.vn/users/nghuuquyen)

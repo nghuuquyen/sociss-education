@@ -566,3 +566,15 @@ Thì lúc này nếu kích thước màn hình nhỏ hơn 600px thì `.column` s
 
 
 Nghĩa là nó vẫn kế thừa các thuộc tính đã định nghĩa trước đó, **tuy nhiên nếu bạn thay đổi giá trị các thuộc tính đó bằng giá trị khác trong media query thì giá trị này sẽ được chọn.**
+
+
+
+# Tác giả
+
+**Name:** Nguyen Huu Quyen ( Nguyễn Hữu Quyền )
+
+**Email:** nghuuquyen@gmail.com
+
+**Website:** [Sociss Class - Online Education Center](https://sociss.edu.vn/)
+
+**Profile Page:** [Nguyen Huu Quyen - Profile Page ](https://sociss.edu.vn/users/nghuuquyen)
