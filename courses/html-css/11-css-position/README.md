@@ -1,5 +1,3 @@
-Trong phần này nói về các kiểu hiển thị:
-
 Trong các bài học lần trước các bạn đã biết về **float** giúp một phần tử trôi dạt theo hướng xác định, **Box model** giúp xác định khoảng các giữa các phần tử với nhau.
 
 Trong bài học lần này mình sẽ trình bày về **position** là kỹ thuật xác định vị trí hiển thị của phần tử.
@@ -8,18 +6,20 @@ Trong bài học lần này mình sẽ trình bày về **position** là kỹ th
 Trong CSS thuộc tính **position** cho phép xác định vị trí hiển thị phần tử, giá trị nhập vào bao gồm một trong các giá trị dưới đây.
 
 **1) Static**
+
 **2) Fixed**
+
 **3) Relative và absolute**
 
 
-### 1. Static
+## 1. Static
 
 Trong CSS thì kiểu static là mặc định, có thể hiểu là không được định vị trí.
 
 Vậy nói đơn giản nếu bạn thiết lập `position : static` cho phần tử thì sẽ chẵng có hiệu ứng gì xảy ra hết, phần tử sẽ hiển thị đúng theo cách nó nên được hiển thị.
 
 
-### 2. Fixed
+## 2. Fixed
 
 Đây là kiểu hiển thị cố định vị trí so với **viewport** có nghĩa là nó luôn luôn ở cùng một vị trí khi cuộn trang. **Viewport** ở đây chính là khung nhìn màn hình của các bạn.
 
@@ -103,7 +103,7 @@ Bạn có thể đọc qua bài viết này [Mobile fixed position problem and s
 + Giải pháp cho vấn đề trên thì người ta đề xuất dùng thêm Javascript để kiểm tra và hỗ trợ.
 
 
-### 3. Relative và Absolute
+## 3. Relative và Absolute
 
 Đây là hai giá trị position riêng biệt nhưng chỉ phát huy hiệu quả nếu đi cặp với nhau.
 
@@ -163,7 +163,7 @@ Rất đơn giản đúng không nào.
 
 
 
-### Nhận xét và kết luận
+## Nhận xét và kết luận
 
 Tới đây các bạn sẽ hỏi mình, **vậy khi nào nên dùng position relative và absolute và khi nào thì nên dùng float, box model, dimention ?**
 
@@ -179,7 +179,7 @@ Nếu các bạn áp dụng kỹ thuật tạo bố cục (layout) và để tr�
 
 
 
-# Tác giả
+## Tác giả
 
 **Name:** Nguyen Huu Quyen ( Nguyễn Hữu Quyền )
 
