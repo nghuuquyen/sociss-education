@@ -171,9 +171,9 @@ p.post-content-2 {
 
 
 
-# Tác giả
+## Tác giả
 
-**Name:** Nguyen Huu Quyen ( Nguyễn Hữu Quyền )
+**Name:** Nguyễn Hữu Quyền ( Quyen Nguyen Huu )
 
 **Email:** nghuuquyen@gmail.com
 

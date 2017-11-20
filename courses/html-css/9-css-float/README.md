@@ -305,9 +305,9 @@ Tới đây là bạn đã nắm vững `float` và `clearfix` đồng thời hi
 
 
 
-# Tác giả
+## Tác giả
 
-**Name:** Nguyen Huu Quyen ( Nguyễn Hữu Quyền )
+**Name:** Nguyễn Hữu Quyền ( Quyen Nguyen Huu )
 
 **Email:** nghuuquyen@gmail.com
 

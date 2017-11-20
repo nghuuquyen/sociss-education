@@ -569,9 +569,9 @@ Nghĩa là nó vẫn kế thừa các thuộc tính đã định nghĩa trước
 
 
 
-# Tác giả
+## Tác giả
 
-**Name:** Nguyen Huu Quyen ( Nguyễn Hữu Quyền )
+**Name:** Nguyễn Hữu Quyền ( Quyen Nguyen Huu )
 
 **Email:** nghuuquyen@gmail.com
 

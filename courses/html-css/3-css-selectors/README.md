@@ -327,9 +327,9 @@ Hãy suy nghĩ và nêu lên nhận xét của bạn với các luận điểm d
 2) Làm thế nào để biết bộ chọn nào là phù hợp nhất, vì tôi vẫn có thể chọn một phần tử bằng nhiều cách khác nhau.
 
 
-# Tác giả
+## Tác giả
 
-**Name:** Nguyen Huu Quyen ( Nguyễn Hữu Quyền )
+**Name:** Nguyễn Hữu Quyền ( Quyen Nguyen Huu )
 
 **Email:** nghuuquyen@gmail.com
 

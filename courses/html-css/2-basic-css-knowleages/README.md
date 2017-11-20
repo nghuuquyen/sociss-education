@@ -67,9 +67,9 @@ Khi có CSS vào
 Trong bài giới thiệu lần này các bạn chỉ cần hiểu CSS là gì, khi sử dụng nó thì có hiệu quả ra sao mà thôi. Trong bài học tới mình sẽ trình bày cụ thể hơn về những cái cần biết khi làm việc với CSS.
 
 
-# Tác giả
+## Tác giả
 
-**Name:** Nguyen Huu Quyen ( Nguyễn Hữu Quyền )
+**Name:** Nguyễn Hữu Quyền ( Quyen Nguyen Huu )
 
 **Email:** nghuuquyen@gmail.com
 

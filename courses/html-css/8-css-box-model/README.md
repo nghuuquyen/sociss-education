@@ -511,9 +511,9 @@ Và CSS
 **Với kỹ thuật box-sizing** bạn đã có thể dễ dàng hơn trong việc thiết kế, **Chỉ cần xác định trước width, height và margin là đủ**.
 
 
-# Tác giả
+## Tác giả
 
-**Name:** Nguyen Huu Quyen ( Nguyễn Hữu Quyền )
+**Name:** Nguyễn Hữu Quyền ( Quyen Nguyen Huu )
 
 **Email:** nghuuquyen@gmail.com
 

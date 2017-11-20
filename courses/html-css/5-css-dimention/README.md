@@ -132,9 +132,9 @@ Và có CSS là
 Ở trên mình chỉnh phần nội dung bài viết không lớn hơn 1200px chiều ngang,đó là kích thước vừa đẹp để người dùng dễ đọc. Tiếp theo đó mình cho tất cả ảnh trong bài viết đều căn giữa và có chiều ngang là 50% của thẻ chứa nó, cụ thể ở đây chính là thẻ div.post-content.
 
 
-# Tác giả
+## Tác giả
 
-**Name:** Nguyen Huu Quyen ( Nguyễn Hữu Quyền )
+**Name:** Nguyễn Hữu Quyền ( Quyen Nguyen Huu )
 
 **Email:** nghuuquyen@gmail.com
 

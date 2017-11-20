@@ -181,7 +181,7 @@ Nếu các bạn áp dụng kỹ thuật tạo bố cục (layout) và để tr�
 
 ## Tác giả
 
-**Name:** Nguyen Huu Quyen ( Nguyễn Hữu Quyền )
+**Name:** Nguyễn Hữu Quyền ( Quyen Nguyen Huu )
 
 **Email:** nghuuquyen@gmail.com
 
