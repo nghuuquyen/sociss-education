@@ -107,13 +107,24 @@ Bạn có thể đọc qua bài viết này [Mobile fixed position problem and s
 
 Đây là hai giá trị position riêng biệt nhưng chỉ phát huy hiệu quả nếu đi cặp với nhau.
 
-**Relative và Absolute** giải quyết bài toán yêu cầu bạn xác định vị trí của phần tử B nhưng lại phải căn cứ theo vị trí của phần tử A.
+**Đầu tiên mình sẽ có một ví dụ minh họa nhỏ. Giả sử bạn cần xác định vị trí nào đó gần bạn và bạn đặt câu hỏi như sau:**
 
-Lúc này phần tử B sẽ có kiểu vị trí là `Absolute` còn phần tử A sẽ là `Relative`. **Và yêu cầu ở đây là phần tử B phải là con của A (Ở bên trong)**.
+>Hãy giúp mình xác định vị trí cách tôi 2 km về hướng Đông ?
 
-**Kết luận :** Phần tử có kiểu position là `Absolute` sẽ có vị trí xác định dựa vào trị trí của phần tử có position `Relative` chứa nó.
+--> Với câu hỏi như trên thì không ai trả lời được vì họ không biết bạn đang ở đâu. Nhưng nếu bạn hỏi:
 
-Nếu bạn không đảm bảo quy tắc trên, bỏ qua thiết lập `Relative` cho phần tử chứa thì giao diện sẽ không dự đoán được,vì nó sẽ tự đi tìm phần tử chứa mình có thiết lập `Relative` hoặc nếu tìm không ra thì sẽ tự chọn phần tử `body`.
+>Hãy giúp mình xác định vị trí cách tôi 2 km về hướng Đông, lúc này mình đang ở đường Trần Phú, thành phố Đà Nẵng ?
+
+--> Với câu hỏi này thì người ta có thể trả lời được, **vì có một cột mốc cụ thể**.
+
+
+**Trong CSS cũng vậy, thành phần có position `Relative` giống như cột mốc cho thành phần có position `Absolute` canh chỉnh theo.**
+
+
+**Có một yêu cầu** đó là thành phần có position absolute **phải nằm ở bên trong** thành phần có position relative, thì khi đó việc canh chỉnh mới chính xác được.
+
+Nếu bạn không đảm bảo quy tắc trên, bỏ qua thiết lập `Relative` cho phần tử chứa thì giao diện sẽ không dự đoán được, **vì nó sẽ tự đi tìm phần tử chứa mình có thiết lập `Relative` hoặc nếu tìm không ra thì sẽ chọn viewport, điều đó dẫn đến phần tử đó sẽ di chuyển khi theo khi bạn cuộn trang**.
+
 
 Vị trí của một phần tử kiểu `Absolute` được xác định dựa vào bốn tham số `top, right, bottom và left` lần lượt đó chính là khoảng cách đến viền trong của phần tử chứa được thiết lập `Relative`. Để hiểu rõ hơn hay xem ví dụ bên dưới.
 
@@ -466,6 +477,29 @@ Và đây là code CSS của mình cho giải pháp trên.
 
 Còn phần card-footer thì khá đơn giản, nên mình không giải thích nhé.
 
+Cuối cùng để thân thiện trên mobile, thì mình sẽ dùng thêm một đoạn code media query sau. Đơn giản là để cho thẻ có thể hiển thị full màn hình.
+
+```css
+@media screen and (max-width: 500px) {
+  .qt-card {
+    min-width: 100%;
+  }
+
+  .qt-card .card-header {
+    /* height auto for best scale image on mobile. */
+    height: auto;
+    max-height: 150px;
+  }
+
+  .col {
+    width: 100%;
+  }
+}
+```
+
+Live Demo: [Demo thẻ bài viết](https://jsfiddle.net/nghuuquyen/q28bsua8/)
+
+
 
 ## Nhận xét và kết luận
 
@@ -476,10 +510,14 @@ Tới đây các bạn sẽ hỏi mình, **vậy khi nào nên dùng position re
 
 Còn kỹ thuật xác định vị trí (position) dùng để trình bày các phần tử. Như là đặt phần tử ở góc trái trên, ở giữa hay cách góc một khoảng nào đó, v.v . Thường là những chi tiết vụn vặt rất phức tạp.
 
-
 Nếu các bạn áp dụng kỹ thuật tạo bố cục (layout) và để trình bày những chi tiết vụn vặt phức tạp thì sẽ gặp rất nhiều khó khăn trong khi viết mã. Điều này thì các bạn chỉ cần thử đặt vấn đề ra và thử giải quyết là hiểu ngay.
 
 **Ví dụ**: Các bạn thử chia cột bằng  position hoặc tạo một user card phức tạo như trên chỉ bằng float và box model. **Cái gì dùng sai mục đích thì sẽ khó khăn vô cùng đúng không nào**.
+
+**Thứ hai** qua phần thực hành nhỏ ở mục 4 trong bài học này, mình muốn nhắc các bạn khi viết mã CSS, **thì luôn phải dự tính trường hợp dữ liệu thực sau này không `đẹp` như trong thiết kế**.
+
+Ví dụ có thể **tiêu đề quá dài**, quá ngắn hoặc không có, hình ảnh quá nhỏ, quá to hoặc **không có hình ảnh**. Tại vì dữ liệu này được trả từ server về nên nhiều khi sẽ gặp lỗi hoặc không như ý muốn. Chính vị vậy khi viết mã phải dự tính trước, **luôn xác định các tham số max, min hoặc đặt giá trị width height cố định nếu cần thiết để tránh sự cố bể giao diện xảy ra**.
+
 
 
 ## Tác giả
