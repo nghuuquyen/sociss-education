@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sociss To Do Demo</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="container">
+    <div class="header">
+      <h1>Task management</h1>
+    </div>
+    <form class="create-todo">
+      <h3>Create To Do</h3>
+      <div class="form-group">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name">
+      </div>
+      <div class="form-group">
+        <label for="time-start">Time start: </label>
+        <input type="time" name="time-start" id="time-start">
+      </div>
+      <div class="form-group">
+        <label for="time-end">Time end: </label>
+        <input type="time" name="name" id="time-end">
+      </div>
+      <div class="form-group">
+        <button class="btn_create" type="button" onclick="submitNewTaskForm()">
+          Create
+        </button>
+        <button class="btn_reset" type="reset">Reset</button>
+      </div>
+    </form>
+
+    <div class="list-todo">
+      <h3>List To Do</h3>
+      <table class="tb-list-todo" id="tb-list-todo">
+        <tr class="header-list-todo">
+          <th>Name</th>
+          <th>Time start</th>
+          <th>Time end</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+        <!-- Data add to here. -->
+      </table>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

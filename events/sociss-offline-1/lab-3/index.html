@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sociss Weather Card Demo</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="weather-card">
+    <form name="search" onsubmit="searchWeather(event)">
+      Search <input id="search-input" type="text" name="city_name" placeholder="Nhập tên thành phố "/>
+    </form>
+
+    <div class="header">
+      <div class="city-column">
+        <h1 id="city_name">City Name</h1>
+        <h3 id="city_weather">City weather</h3>
+        <p><b>Độ Ẩm</b> <span id="humidity">Humidity</span> %</p>
+        <p><b>Tốc độ gió</b> <span id="wind">Temperature</span> Km/h</p>
+      </div>
+      <div class="temperature-column">
+        <span id="temperature">45</span>
+        <span><sup>°C</sup><span>
+        </div>
+      </div>
+      <div class="body">
+        <table id="predict-table">
+          <tr>
+            <th>Ngày</th>
+            <th>Thời tiết</th>
+            <th>Thấp nhất</th>
+            <th>Cao nhất</th>
+          </tr>
+          <tr>
+            <td>Monday</td>
+            <td>Suny</td>
+            <td>22</td>
+            <td>25</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+  </html>
