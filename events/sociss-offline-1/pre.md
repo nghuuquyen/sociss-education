@@ -81,7 +81,7 @@ Thuộc loại CSS UI Framework.
 Ngoài ra các bạn có thể tìm thêm nhiều hơn tại đây nếu muốn, vì thực ra là rất nhiều mình cũng không thể dùng hết [các grid framework](https://www.webpagefx.com/blog/web-design/responsive-css-grid/) 
 
 
-### 4. Javascript Framework 
+### 4. Javascript Library & Framework 
 
 Qua các bài lab thực hành trong buổi offline các bạn sẽ thấy được các tác dụng của Javascript trong việc xây dựng website, tuy nhiên các bạn cũng sẽ thấy được là để viết ra cần tốn khá nhiều thời gian đặc biệt là trong các việc như quản lý phần View, Get và Set data.
 
@@ -96,13 +96,13 @@ Những ưu điểm khi sử dụng JavaScript frameworks :
 **Chi phí** – hầu hết các framework đều là mã nguồn mở và miễn phí. Vì framework giúp các lập trình viên xây dựng giải pháp tuỳ chỉnh nhanh hơn, giá cuối cùng cho ứng dụng web sẽ thấp hơn.
 
 
-#### Các Javascript framework nổi tiếng
+#### Các Javascript library & framework nổi tiếng
 
 Đầu tiên phải nói đến chính là 
 
 **a) JQuery** 
 
-JQuery là framework được sử dụng nhiều nhất và cũng là cốt lõi xây dựng lên các framework khác. Đặc biệt JQuery làm việc rất hiệu quả với HTML DOM, việc truy vấn các phần tử trở nên vô cùng dễ dàng.
+JQuery là một thư viện được sử dụng nhiều nhất và cũng là cốt lõi xây dựng lên các framework khác. Đặc biệt JQuery làm việc rất hiệu quả với HTML DOM, việc truy vấn các phần tử trở nên vô cùng dễ dàng.
 
 Ngoài ra bộ thư viện JQuery UI nổi tiếng cũng rất được ưa dùng để xây dựng giao diện ứng dụng người dùng. 
 
@@ -116,7 +116,7 @@ Trong phần bài lab chính mình cũng sẽ demo sử dụng Angular JS để 
 
 **c) React JS** 
 
-Đây là một framework tập trung cao vào phần View nhờ đó có thể kết hợp tốt với bất kỳ cấu trúc web nào, bên cạnh đó cũng được biết đến với cơ chế DOM ảo để nâng cao hiệu suất và tốc độ render giao diện.
+Đây là một thư viện tập trung cao vào phần View nhờ đó có thể kết hợp tốt với bất kỳ cấu trúc web nào, bên cạnh đó cũng được biết đến với cơ chế DOM ảo để nâng cao hiệu suất và tốc độ render giao diện.
 
 Cá nhân mình thì không có nhiều kinh nghiệm với React.js tuy nhiên đây là một công cụ cực kỳ hot và tràn đầy tiềm năng với sự hỗ trợ của ông lớn Facebook. Tương lai mình sẽ dành thời gian để nghiên cứ về cái này, chắc chắn sẽ như vậy.
 
