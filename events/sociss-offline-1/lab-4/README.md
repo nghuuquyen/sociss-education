@@ -1,4 +1,4 @@
-# Lab 4. Sociss To Do Application
+# Lab 4. Sociss To Do
 
 Sau bài lab thứ 4 này chúng sẽ học được gì ?
 
@@ -9,7 +9,7 @@ Sau bài lab thứ 4 này chúng sẽ học được gì ?
 
 Sản phẩm của bài lab sau khi hoàn thành sẽ như bên dưới:
 
-![Sociss to do application](socciss-todo-app.png)
+![Sociss to do application](sociss-todo.png)
 
 Ok trên đây là tất cả nội dung của bài lab. Bắt tay vào thực hiện nào!!! Let's go!!!
 
@@ -45,7 +45,7 @@ Chúng ta sẽ xây dựng dựa trên mô hình MVC nên trước hết chúng 
     <h3>Create To Do</h3>
     <div class="form-group">
       <label for="name">Name: </label>
-      <input type="tẽt" name="name" id="name">
+      <input type="text" name="name" id="name">
     </div>
     <div class="form-group">
       <label for="time-start">Time start: </label>

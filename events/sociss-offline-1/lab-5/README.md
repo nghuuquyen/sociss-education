@@ -1,4 +1,4 @@
-# Lab 5 -
+# Lab 5 - Demo Responsive Design Card and Grid
 
 ![Demo thẻ bài viết](./images/ex4.1-demo-article.png)
 
