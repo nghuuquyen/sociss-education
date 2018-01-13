@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sociss Weather Card Angular Demo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body ng-app="sociss-weather-card">
+  <div class="weather-card" ng-controller="CardController">
+    <form name="search" ng-submit="searchWeather()">
+      Search <input type="text" ng-model="searchCityName" placeholder="Nhập tên thành phố "/>
+    </form>
+
+    <div class="header">
+      <div class="city-column">
+        <h1 id="city_name">{{weather.cityName}}</h1>
+        <h3 id="city_weather">{{weather.weather}}</h3>
+        <p><b>Độ Ẩm</b> <span id="humidity">{{weather.humidity}}</span> %</p>
+        <p><b>Tốc độ gió</b> <span id="wind">{{weather.wind}}</span> Km/h</p>
+      </div>
+      <div class="temperature-column">
+        <span id="temperature">{{weather.temp}}</span>
+        <span><sup>°C</sup></span>
+      </div>
+    </div>
+    <div class="body">
+      <table id="predict-table">
+        <tr>
+          <th>Ngày</th>
+          <th>Thời tiết</th>
+          <th>Thấp nhất</th>
+          <th>Cao nhất</th>
+        </tr>
+        <tr ng-repeat="item in weather.forecast">
+          <td>{{item.date}}</td>
+          <td>{{item.text}}</td>
+          <td>{{item.low}} °C</td>
+          <td>{{item.high}} °C</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <script src="lib/jquery.js"></script>
+  <script src="lib/angular.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

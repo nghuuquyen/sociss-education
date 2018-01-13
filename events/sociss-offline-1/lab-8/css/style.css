@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #EEE;
+}
+
+#search-input {
+  border-radius: 5px;
+}
+
+.weather-card {
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #1e98fbf2;
+  padding: 15px;
+  color: #FFF;
+  border-radius: 15px;
+}
+
+.header .city-column,
+.temperature-column {
+  width: 49%;
+  display: inline-block;
+}
+
+.temperature-column span {
+  font-size: 80px;
+}
+
+#predict-table {
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #7ab6eab5;
+}

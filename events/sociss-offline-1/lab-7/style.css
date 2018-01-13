@@ -1,0 +1,21 @@
+p {
+    padding: 20px;
+    background: #f2f2f2;
+}
+
+p.highlight{
+    background: yellow;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  background: #9d7ede;
+  margin-top: 30px;
+  border-style: solid; /* Required to animate border width */
+  border-color: #6f40ce;
+}
+
+.highlight{
+  background: yellow;
+}
