@@ -54,10 +54,13 @@ Trong đó, trọng tâm hướng vào việc xây dựng giao diện người d
 
 Hoặc nếu máy các bạn không cho tải tệp Zip thì dùng link Google Drive dưới đây 
 
-[Slides và các bài labs Google Drive](bit.ly/sociss-offline-1-labs-drive)
+[Slides và các bài labs Google Drive](http://bit.ly/sociss-offline-1-labs-drive)
 
 
-2. Tại mỗi thư mục lab, để chạy bài lab các bạn hãy mở tệp `index.html` lên bằng trình duyệt của mình.
+2. Các bạn slide hướng dẫn có tên `sociss-offline-1-slides.pdf` có thể xem ngay trên github này ở đây [Slides hướng dẫn](./sociss-offline-1-slides.pdf)
+hoặc tải ở link drive trên, nếu tải file zip thì mình đã để sẵn ở bên trong nhé. Các bạn sẽ đọc theo các slides và mở ra các bài lab tương ứng.
+
+3. Tại mỗi thư mục lab, để chạy bài lab các bạn hãy mở tệp `index.html` lên bằng trình duyệt của mình.
 
 **Các bài lab**
 
@@ -108,3 +111,4 @@ Các câu hỏi và yêu cầu thêm các bạn hãy gửi lên fanpage hoặc G
 
 
 **Group** [https://www.fb.com/groups/sociss.edu.vn/](https://www.fb.com/groups/sociss.edu.vn/)
+it.l
