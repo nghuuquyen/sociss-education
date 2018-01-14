@@ -1,0 +1,25 @@
+{
+  "name": "promise-and-callback-tutorials",
+  "version": "1.0.0",
+  "description": "Using for teaching how to use callback and promise in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "sociss",
+    "sociss",
+    "class",
+    "nodejs",
+    "promise",
+    "nodejs",
+    "callback",
+    "js",
+    "callback"
+  ],
+  "author": "Quyen Nguyen Huu",
+  "license": "ISC",
+  "dependencies": {
+    "q": "^1.5.1"
+  }
+}
