@@ -1,4 +1,4 @@
-# Lab 8 - Demo sử dụng Anuglar JS 1.x cho ứng dụng Sociss Weather Card
+# Lab 8 - Demo sử dụng Angular JS 1.x cho ứng dụng Sociss Weather Card
 
 Về kết quả thì bài lab này hoàn toàn tương tự như trong bài Lab 3. Tuy nhiên
 trong bài lab này thì mình sử dụng Angular JS để viết nên.
