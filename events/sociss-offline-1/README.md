@@ -50,6 +50,13 @@ Trong đó, trọng tâm hướng vào việc xây dựng giao diện người d
 
 1. Các bạn sẽ tải toàn bộ các bài lab theo link dưới đây hoặc clone Repository này về.
 
+[Tải về Slides và tất cả các bài Lab cho sự kiện](http://bit.ly/sociss-offline-1-labs)
+
+Hoặc nếu máy các bạn không cho tải tệp Zip thì dùng link Google Drive dưới đây 
+
+[Slides và các bài labs Google Drive](bit.ly/sociss-offline-1-labs-drive)
+
+
 2. Tại mỗi thư mục lab, để chạy bài lab các bạn hãy mở tệp `index.html` lên bằng trình duyệt của mình.
 
 **Các bài lab**
@@ -90,7 +97,7 @@ Trong bài lab số 7 này, mình sẽ giới thiệu cho các bạn thư viện
 Trong bài lab số 8 thì mình sẽ làm lại bài lab số 3, tuy nhiên lại sử dụng framework Angular JS 1.x. Với mong muốn giới thiệu cho các bạn thấy sự tiện lợi khi sử dụng framework là như thế nào.
 
 
-[Lab 9. Demo sử dụng Sass để viết mã CSS (10 phút)](./lab-8)
+[Lab 9. Demo sử dụng Sass để viết mã CSS (10 phút)](./lab-9)
 
 Trong bài lab cuối này mình sẽ giới thiệu với các bạn một công cụ để viết mã CSS linh hoạt đó là Sass. Điểm nhanh qua một số tính năng của Sass, với mong muốn các bạn có thể hình dung ra được tại sao các công cụ preprocessor css lại được yêu thích.
 
