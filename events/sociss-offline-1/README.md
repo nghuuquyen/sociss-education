@@ -4,6 +4,11 @@
 
 Ngày 14 tháng 1 năm 2018, lúc 14H.
 
+![Offline final ](./offline-final.jpg  "Offline final")
+
+Ảnh chụp các thành viên tham gia sau khi kết thúc sự kiện.
+
+
 **Lưu ý về việc tổ chức**
 
 + Do số lượng thành viên quá đông, nên mình sẽ chia các bạn thành các nhóm và đi hướng dẫn cho từng nhóm.
