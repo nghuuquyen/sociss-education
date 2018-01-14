@@ -111,4 +111,17 @@ Các câu hỏi và yêu cầu thêm các bạn hãy gửi lên fanpage hoặc G
 
 
 **Group** [https://www.fb.com/groups/sociss.edu.vn/](https://www.fb.com/groups/sociss.edu.vn/)
-it.l
+
+
+
+#### Tác giả 
+
+**Name:** Nguyễn Hữu Quyền ( Quyen Nguyen Huu )
+
+**Email:** nghuuquyen@gmail.com
+
+**Website:** [Sociss Class - Online Education Center](https://sociss.edu.vn/)
+
+**Profile Page:** [Nguyen Huu Quyen - Profile Page ](https://sociss.edu.vn/users/nghuuquyen)
+
+Để được mình hướng dẫn, trợ giúp có thể inbox trực tiếp fanpage hoặc gửi thư qua địa chỉ email nhé.
